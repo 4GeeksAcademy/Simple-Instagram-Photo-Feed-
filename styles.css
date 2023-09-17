@@ -1,0 +1,45 @@
+body { margin: 0;
+    background-color: lightgrey;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: small;}
+div.post h2 {font-size: 15px;}
+
+div{box-sizing: border-box;}
+
+header {background: white;
+        padding: 10px;}
+    
+header h1 {margin: 0;}
+
+div.container {
+    position: relative;
+    width: 600px;
+    margin: auto;}
+
+div.post {background: white;
+    margin-top: 50px;
+}
+
+div.post img {width: 100%;
+   }
+
+div.post h2, div.post p {padding: 5px;}
+
+div.post p {padding-bottom: 15px;
+padding-left: 20px;}
+
+div.post .post-header div:first-child {display: inline-block;
+    width: 80%;
+    padding-left: 5px;
+}
+div.post .post-header div:last-child {display: inline-block;
+    width: 18%;
+    text-align: right;
+    padding-right: 5px;
+    color: lightgrey;
+}
+div.post .post-header {border-bottom: solid 1px lightgrey;}
+
+div.post .comment {border-top: solid 1px lightgrey;}
+
+#resize {padding: 57px 0 57px 0;}
